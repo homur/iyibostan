@@ -1,0 +1,50 @@
+.cbp-qtrotator {
+	position: relative;
+	max-width: 800px;
+	width: 100%;
+}
+
+.cbp-qtrotator .cbp-qtcontent {
+	position: absolute;
+	min-height: 200px;
+	top: 0;
+	z-index: 0;
+	opacity: 0;
+	border-top: #fff solid 2px;
+	border-bottom: #fff solid 2px;
+	width: 100%;
+	padding-left: 9px;
+	padding-right: 27px;
+	padding-bottom: 19px;
+}
+
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	border-bottom: none;
+}
+
+.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	position: relative; 
+	z-index: 100;
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.cbp-qtrotator .cbp-qtcontent:before,
+.cbp-qtrotator .cbp-qtcontent:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-qtrotator .cbp-qtcontent:after {
+	clear: both;
+}
+
+.cbp-qtprogress {
+	position: absolute;
+	background: #fff;
+	height: 2px;
+	width: 0%;
+	top: 0;
+	z-index: 1000;
+}

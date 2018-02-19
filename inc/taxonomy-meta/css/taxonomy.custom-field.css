@@ -1,0 +1,38 @@
+/** edit tax. */
+tr td .form-field{
+    padding-bottom: 10px;
+}
+
+/** icon */
+#TB_ajaxContent {
+    width: auto !important;
+    height: auto !important;
+}
+
+#TB_ajaxContent ul>li {
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+#TB_ajaxContent ul>li i {
+    font-size: 15px;
+}
+
+#TB_ajaxContent ul>li:HOVER {
+    border-color: #0696DA;
+    background-color: #ddd;
+}
+
+.icons-content {
+    overflow: auto;
+    max-height: 400px;
+    width: 100%;
+    display: inline-block;
+}
