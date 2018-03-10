@@ -28,7 +28,6 @@ padding-top: 23px;
 #cshero-header-inner {
 
   #cshero-header-top {
-    display: none;
     font-size: 14px;
     padding: 12px 0 11px;
     position: relative;
@@ -81,11 +80,11 @@ padding-top: 23px;
   &.header-4{
 
     #cshero-header{
-      background: #fafafa;
-       #cshero-header-navigation .menu-main-menu > ul > li > a,
+      background: #FFF;
+      #cshero-header-navigation .menu-main-menu > ul > li > a,
       #cshero-header-navigation .menu-main-menu > ul > ul > li > a,
-     #cshero-header-navigation .menu-main-menu > li > a,
-     #cshero-header-navigation .menu-main-menu > ul > li > a{
+      #cshero-header-navigation .menu-main-menu > li > a,
+      #cshero-header-navigation .menu-main-menu > ul > li > a{
          color: #626262 !important;
         .menu-title:after{
           display: none;
@@ -198,6 +197,7 @@ padding-top: 23px;
   }
 }
 #cshero-header-top {
+  display: none;
   &.header-top2 {
     padding: 3px 0;
   }
@@ -696,7 +696,6 @@ padding-top: 23px;
           }
         }
         .menu-main-menu, .cshero-navigation-right {
-          float: right;
           display: inline-block;
         }
 
@@ -1076,4 +1075,11 @@ padding-top: 23px;
     clear: both;
     width: 50%;
   }
+}
+
+
+// ADDITIONAL
+
+.menu-main-menu-container{
+  text-align: center;
 }

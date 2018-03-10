@@ -21,7 +21,6 @@ footer {
   width: 100%;
 	#cshero-footer-top {
 		color: #151515;
-		padding: 65px 0 40px;
 		border-bottom: 1px solid #d4d4d4;
 		.widget-title { 
 			font-size: 30px;
@@ -293,7 +292,6 @@ footer {
   &#footer-layout3{
 	background-color: #bbbbbb;
 	#cshero-footer-top{
-	  padding: 73px 0 31px;
 	  background: #fafafa;
 	  color: #424242;
 	  letter-spacing: 0.025em;
@@ -389,7 +387,7 @@ footer {
 	  }
   }
 	#cshero-footer-bottom {
-	  padding: 31px 0;
+		display: none;
 	}
 	&.footer4{
 	  background: #202228;
